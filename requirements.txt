@@ -3,7 +3,6 @@ aiohttp==3.6.2
 alabaster==0.7.12
 altair==3.2.0
 anaconda-client==1.2.2
-anaconda-navigator==1.9.12
 anaconda-project==0.8.3
 argh==0.26.2
 asgiref==3.2.7
