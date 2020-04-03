@@ -1,0 +1,39 @@
+State	Confirmed	Recovered	Deaths	Active	State_code	Delta_Confirmed	Delta_Recovered	Delta_Deaths
+Total	5089	398	148	4543	TT	311	16	14
+Maharashtra	945	70	60	815	MH	77	0	8
+Tamil Nadu	690	13	7	670	TN	69	0	1
+Delhi	525	16	7	502	DL	0	0	0
+Kerala	336	59	2	275	KL	9	0	0
+Telangana	364	33	11	320	TG	0	0	0
+Uttar Pradesh	305	21	3	281	UP	0	0	0
+Rajasthan	328	25	2	301	RJ	27	0	0
+Andhra Pradesh	304	5	3	296	AP	1	0	0
+Madhya Pradesh	268	11	18	239	MP	12	0	3
+Karnataka	175	25	4	146	KA	12	5	0
+Gujarat	165	23	12	130	GJ	19	1	0
+Jammu and Kashmir	125	4	3	118	JK	16	0	1
+Haryana	143	29	2	112	HR	33	0	0
+Punjab	99	4	7	88	PB	20	0	0
+West Bengal	91	13	3	75	WB	11	3	0
+Bihar	34	15	1	18	BR	2	6	0
+Assam	27	0	0	27	AS	1	0	0
+Uttarakhand	31	4	0	27	UT	0	0	0
+Odisha	42	2	1	39	OR	2	0	1
+Chandigarh	18	5	0	13	CH	0	0	0
+Ladakh	14	10	0	4	LA	0	0	0
+Andaman and Nicobar Islands	10	0	0	10	AN	0	0	0
+Chhattisgarh	10	8	0	2	CT	0	0	0
+Goa	7	0	0	7	GA	0	0	0
+Himachal Pradesh	18	1	2	15	HP	0	0	0
+Puducherry	5	1	0	4	PY	0	1	0
+Jharkhand	4	0	0	4	JH	0	0	0
+Manipur	2	1	0	1	MN	0	0	0
+Mizoram	1	0	0	1	MZ	0	0	0
+Arunachal Pradesh	1	0	0	1	AR	0	0	0
+Dadra and Nagar Haveli	1	0	0	1	DN	0	0	0
+Daman and Diu	0	0	0	0	DD	0	0	0
+Lakshadweep	0	0	0	0	LD	0	0	0
+Meghalaya	0	0	0	0	ML	0	0	0
+Nagaland	0	0	0	0	NL	0	0	0
+Sikkim	0	0	0	0	SK	0	0	0
+Tripura	1	0	0	1	TR	0	0	0

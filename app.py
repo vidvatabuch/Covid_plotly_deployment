@@ -10,19 +10,19 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-from flask import Flask
+#from flask import Flask
 import os
 
 
 #Load the data from CSV into the respective dataframes
 #Statewise  CSV
-statewise_df = pd.read_csv('data/COVIDstatewise_03042020.csv',sep='\t')
+statewise_df = pd.read_csv('data/COVIDstatewise_08042020.csv',sep='\t')
 
 #Raw data CSV
-raw_data_df = pd.read_csv('data/COVIDraw_data_df_03042020.csv',sep='\t')
+raw_data_df = pd.read_csv('data/COVIDraw_data_df_08042020.csv',sep='\t')
 
 #Cases CSV
-cases_df = pd.read_csv('data/COVIDcases_03042020.csv',sep='\t')
+cases_df = pd.read_csv('data/COVIDcases_08042020.csv',sep='\t')
 
 
 #Prepare the Plotly Charts to publish them on web page later
@@ -39,35 +39,10 @@ CovidCasebyStatefig.update_layout(title='Covid-19 Case Statuses by State',barmod
 
 #Statewise Pie Chart
 labels = statewise_df.loc[1:,'State']
-values =  statewise_df.loc[1:,'Confirmed']
+values =  statewise_df.loc[1:,'Recovered']
 CovidpercentbyStatefig = go.Figure(data=[go.Pie(labels=labels, values=values,hole=.3)])
 CovidpercentbyStatefig.update_traces(textposition='inside')
-CovidpercentbyStatefig.update_layout(title='Covid-19 Confirmed Cases percent by State',uniformtext_minsize=12, uniformtext_mode='hide')
-
-#Raw Data 
-
-#Gender Bar Chart
-new_df = raw_data_df.groupby(['Current Status','Gender'])['Patient Number'].count()
-new_df = new_df.to_frame()
-new_df.reset_index(inplace=True)
-
-CovidPatientPercentfig = px.bar(new_df, x="Current Status", y="Patient Number", color='Gender', barmode='group',height=400)
-CovidPatientPercentfig.update_layout(title='Patient Status by Gender',yaxis_title="Case Count")
-#CovidPatientPercentfig.show()
-
-#Age Group Bar Chart
-age_df = raw_data_df.groupby(['Age Groups','Gender'])['Patient Number'].count()
-age_df = age_df.to_frame()
-age_df.reset_index(inplace=True)
-
-AgeDataNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][23]+age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][24]+age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][25]
-MaleNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][25]
-FemaleNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][24]
-overallNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][23]
-#print("There are {} patients whose Age data is not Available.\n {} Female {} Male and {} whose age and gender data is not available.\nThe Graph has been prepared for the patients whose Age data is available.".format(AgeDataNA,FemaleNA,MaleNA,overallNA))
-CovidPatientAgefig = px.bar(age_df[age_df['Age Groups'] !='Data not available'], x="Age Groups", y="Patient Number", color='Gender', barmode='group',
-             height=400)
-CovidPatientAgefig.update_layout(title='COVID-19 affected Age Groups by Gender',yaxis_title="Case Count")
+CovidpercentbyStatefig.update_layout(title='Covid-19 Recovered Cases percent by State',uniformtext_minsize=12, uniformtext_mode='hide')
 
 #Cases 
 
@@ -95,7 +70,7 @@ DailyNumberofcasesfig.add_trace(go.Scatter(
                 opacity=0.8))
 
 # Use date string to set xaxis range
-DailyNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-03'],
+DailyNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-08'],
                   title_text="Daily number of cases- Confirmed, Recovered,Deceased",
                   xaxis_title="Date",
                   yaxis_title="Case Count")
@@ -125,33 +100,54 @@ TotalNumberofcasesfig.add_trace(go.Scatter(
                 opacity=0.8))
 
 # Use date string to set xaxis range
-TotalNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-03'],
+TotalNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-08'],
                   title_text="Total number of cases- Confirmed, Recovered,Deceased",
                   xaxis_title="Date",
                   yaxis_title="Case Count")
 
+#Raw Data 
+
+#Gender Bar Chart
+new_df = raw_data_df.groupby(['Current Status','Gender'])['Patient Number'].count()
+new_df = new_df.to_frame()
+new_df.reset_index(inplace=True)
+
+CovidPatientPercentfig = px.bar(new_df, x="Current Status", y="Patient Number", color='Gender', barmode='group',height=400)
+CovidPatientPercentfig.update_layout(title='Patient Status by Gender',yaxis_title="Case Count")
+#CovidPatientPercentfig.show()
+
+#Age Group Bar Chart
+age_df = raw_data_df.groupby(['Age Groups','Gender'])['Patient Number'].count()
+age_df = age_df.to_frame()
+age_df.reset_index(inplace=True)
+
+AgeDataNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][24]+age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][25]+age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][26]
+MaleNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][26]
+FemaleNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][25]
+overallNA = age_df.loc[age_df['Age Groups']=='Data not available','Patient Number'][24]
+#print("There are {} patients whose Age data is not Available.\n {} Female {} Male and {} whose age and gender data is not available.\nThe Graph has been prepared for the patients whose Age data is available.".format(AgeDataNA,FemaleNA,MaleNA,overallNA))
+CovidPatientAgefig = px.bar(age_df[age_df['Age Groups'] !='Data not available'], x="Age Groups", y="Patient Number", color='Gender', barmode='group',
+             height=400)
+CovidPatientAgefig.update_layout(title='COVID-19 affected Age Groups by Gender',yaxis_title="Case Count")
 
 # DASH APP
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-server = Flask(__name__)
-server.secret_key = os.environ.get('secret_key', 'secret')
-app = dash.Dash(name = __name__, server = server)
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+#server = Flask(__name__)
+#server.secret_key = os.environ.get('secret_key', 'secret')
+#app = dash.Dash(name = __name__, server = server)
+#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
+server = app.server
 
+app.css.append_css({'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'})
+app.title = 'Covid and India'
 app.layout = html.Div(children=[
-    html.H3(children='COVID - 19 in India',style={'textAlign': 'center'}),
-    html.H5(children='At a glance',style={'textAlign': 'center'}),
-
-    html.Div(children='''
-       This is a hobby project for getting a rough idea about the spread of the global pandemic COVID-19 (also known as CORONAVIRUS) in India.
-    ''',style={'textAlign': 'center'}),
-    
-     html.Div(children='''
-       Built using Plotly, Dash and Python.
-    ''',style={'textAlign': 'center'}),
-
+    html.H3(children='COVID - 19 in India',style={'font-family': 'Helvetica', 'font-weight': 'bold', 'textAlign': 'center'}),
+    html.H4(children='At a glance',style={'font-family': 'Helvetica', 'font-weight': 'bold', 'textAlign': 'center'}),
+    html.P('Built using Python, Dash and Plotly.',style={'font-family': 'Helvetica', 'textAlign': 'center'}),
+     
     dcc.Graph(figure=DailyNumberofcasesfig),
     
     dcc.Graph(figure=TotalNumberofcasesfig),
@@ -178,12 +174,14 @@ app.layout = html.Div(children=[
         ),
         ], className="six columns"),
     ], className="row"),
-    
+
     html.Div([
         html.H4(children='COVID in Major Indian Cities.',style={'textAlign': 'center'}),
-        html.Iframe(id = 'map',srcDoc = open('data/COVIDIndiamap.html','r').read(),width = '100%', height = '600')
+        html.Iframe(id = 'map',srcDoc = open('data/COVIDIndiamap_08042020.html','r').read(),width = '100%', height = '600')
     ])
 
 
 ])
-app.run_server(debug=True, use_reloader=True)  # Turn off reloader if inside Jupyter
+if __name__ == '__main__':
+    app.run_server(debug=True, port=3000)
+#app.run_server(debug=True, use_reloader=True)  # Turn off reloader if inside Jupyter
