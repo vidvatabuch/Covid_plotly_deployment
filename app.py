@@ -10,6 +10,10 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
+from flask import Flask
+import os
+
+
 #Load the data from CSV into the respective dataframes
 #Statewise  CSV
 statewise_df = pd.read_csv('data/COVIDstatewise_03042020.csv',sep='\t')
@@ -131,6 +135,9 @@ TotalNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-03'],
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
+server = Flask(__name__)
+server.secret_key = os.environ.get('secret_key', 'secret')
+app = dash.Dash(name = __name__, server = server)
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div(children=[
