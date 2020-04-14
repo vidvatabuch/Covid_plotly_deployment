@@ -16,13 +16,13 @@ from datetime import datetime
 
 #Load the data from CSV into the respective dataframes
 #Statewise  CSV
-statewise_df = pd.read_csv('data/COVIDstatewise_14042020.csv',sep='\t')
+statewise_df = pd.read_csv('data/COVIDstatewise.csv',sep='\t')
 
 #Raw data CSV
-raw_data_df = pd.read_csv('data/COVIDraw_data_df_14042020.csv',sep='\t')
+raw_data_df = pd.read_csv('data/COVIDraw_data_df.csv',sep='\t')
 
 #Cases CSV
-cases_df = pd.read_csv('data/COVIDcases_14042020.csv',sep='\t')
+cases_df = pd.read_csv('data/COVIDcases.csv',sep='\t')
 
 
 #Statewise Bar Chart
@@ -245,9 +245,9 @@ def update_output1(value):
     [dash.dependencies.Input('demo-dropdown2', 'value')])
 def update_output2(value):
     #Statewise Bar Chart
-    figurestring = 'data/COVIDIndiamap_14042020_ch.html'
+    figurestring = 'data/COVIDIndiamap_ch.html'
     if value == "Bubble":
-        figurestring = 'data/COVIDIndiamap_14042020_bubble.html'
+        figurestring = 'data/COVIDIndiamap_bubble.html'
         
     return html.Iframe(id = 'map',srcDoc = open(figurestring,'r').read(),width = '100%', height = '600')
 
