@@ -211,7 +211,7 @@ app.layout = html.Div([
         html.Div(id='dd-output-container2',style={'padding': 20}),
     ]),
      html.Hr(),
-     html.P('Last updated on 2020-04-15 20:50:47 IST',style={'font-family': 'Helvetica', 'textAlign': 'center'})
+     html.P('Last updated on 2020-04-15 22:12:47 IST',style={'font-family': 'Helvetica', 'textAlign': 'center'})
 
 ])
 
