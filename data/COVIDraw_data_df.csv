@@ -1197,12 +1197,12 @@ Patient Number	State Patient Number	Date Announced	Age Bracket	Nationality	Gende
 1196		2020-03-30	-1.0		Data not available	Bhilwara	Rajasthan	Hospitalized		Data not available
 1197		2020-03-30	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
 1198		2020-03-30	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
-1199		2020-03-30	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
-1200		2020-03-30	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
-1201		2020-03-30	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
-1202		2020-03-30	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
-1203		2020-03-30	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
-1204		2020-03-30	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
+1199		2020-03-30	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
+1200		2020-03-30	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
+1201		2020-03-30	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
+1202		2020-03-30	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
+1203		2020-03-30	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
+1204		2020-03-30	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
 1205		2020-03-30	32.0		M	Chandigarh	Chandigarh	Hospitalized		(29, 39]
 1206		2020-03-30	32.0		F	Chandigarh	Chandigarh	Hospitalized		(29, 39]
 1207		2020-03-30	23.0		M	Chandigarh	Chandigarh	Hospitalized		(19, 29]
@@ -1429,8 +1429,8 @@ Patient Number	State Patient Number	Date Announced	Age Bracket	Nationality	Gende
 1428		2020-03-31	-1.0	India	Data not available	Srinagar	Jammu and Kashmir	Hospitalized		Data not available
 1429		2020-03-31	-1.0	India	Data not available	Srinagar	Jammu and Kashmir	Hospitalized		Data not available
 1430		2020-03-31	-1.0	India	Data not available	Srinagar	Jammu and Kashmir	Hospitalized		Data not available
-1431		2020-03-31	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
-1432		2020-03-31	-1.0		Data not available	Evacuees	Rajasthan	Hospitalized		Data not available
+1431		2020-03-31	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
+1432		2020-03-31	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
 1433		2020-03-31	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
 1434		2020-03-31	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
 1435		2020-03-31	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available
@@ -2987,7 +2987,7 @@ Patient Number	State Patient Number	Date Announced	Age Bracket	Nationality	Gende
 2986		2020-03-04	-1.0		Data not available	Mumbai	Maharashtra	Hospitalized		Data not available
 2987		2020-03-04	-1.0		Data not available	Mumbai	Maharashtra	Hospitalized		Data not available
 2988		2020-03-04	-1.0		Data not available	Mumbai	Maharashtra	Hospitalized		Data not available
-2989		2020-03-04	-1.0		Data not available	Mumbai	Maharashtra	Hospitalized		Data not available
+2989		2020-03-04	-1.0		M	Mumbai	Maharashtra	Hospitalized		Data not available
 2990		2020-03-04	-1.0		Data not available	Mumbai	Maharashtra	Hospitalized		Data not available
 2991		2020-03-04	-1.0		Data not available	Mumbai	Maharashtra	Hospitalized		Data not available
 2992		2020-03-04	-1.0		Data not available	Mumbai	Maharashtra	Hospitalized		Data not available
@@ -12769,31 +12769,31 @@ Patient Number	State Patient Number	Date Announced	Age Bracket	Nationality	Gende
 12768		2020-04-16	-1.0		Data not available	Panchkula	Haryana	Hospitalized		Data not available
 12769		2020-04-16	-1.0		Data not available	Panchkula	Haryana	Hospitalized		Data not available
 12770		2020-04-16	-1.0		Data not available	Palwal	Haryana	Hospitalized		Data not available
-12771	TN-P1243	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12772	TN-P1244	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12773	TN-P1245	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12774	TN-P1246	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12775	TN-P1247	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12776	TN-P1248	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12777	TN-P1249	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12778	TN-P1250	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12779	TN-P1251	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12780	TN-P1252	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12781	TN-P1253	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12782	TN-P1254	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12783	TN-P1255	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12784	TN-P1256	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12785	TN-P1257	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12786	TN-P1258	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12787	TN-P1259	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12788	TN-P1260	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12789	TN-P1261	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12790	TN-P1262	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12791	TN-P1263	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12792	TN-P1264	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12793	TN-P1265	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12794	TN-P1266	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
-12795	TN-P1267	2020-04-16	-1.0		Data not available		Tamil Nadu	Hospitalized		Data not available
+12771	TN-P1243	2020-04-16	-1.0		Data not available	Viluppuram	Tamil Nadu	Hospitalized		Data not available
+12772	TN-P1244	2020-04-16	-1.0		Data not available	Coimbatore	Tamil Nadu	Hospitalized		Data not available
+12773	TN-P1245	2020-04-16	-1.0		Data not available	Tiruppur	Tamil Nadu	Hospitalized		Data not available
+12774	TN-P1246	2020-04-16	-1.0		Data not available	Salem	Tamil Nadu	Hospitalized		Data not available
+12775	TN-P1247	2020-04-16	-1.0		Data not available	Salem	Tamil Nadu	Hospitalized		Data not available
+12776	TN-P1248	2020-04-16	-1.0		Data not available	Namakkal	Tamil Nadu	Hospitalized		Data not available
+12777	TN-P1249	2020-04-16	-1.0		Data not available	Namakkal	Tamil Nadu	Hospitalized		Data not available
+12778	TN-P1250	2020-04-16	-1.0		Data not available	Namakkal	Tamil Nadu	Hospitalized		Data not available
+12779	TN-P1251	2020-04-16	-1.0		Data not available	Namakkal	Tamil Nadu	Hospitalized		Data not available
+12780	TN-P1252	2020-04-16	-1.0		Data not available	Namakkal	Tamil Nadu	Hospitalized		Data not available
+12781	TN-P1253	2020-04-16	-1.0		Data not available	Tirunelveli	Tamil Nadu	Hospitalized		Data not available
+12782	TN-P1254	2020-04-16	-1.0		Data not available	Madurai	Tamil Nadu	Hospitalized		Data not available
+12783	TN-P1255	2020-04-16	-1.0		Data not available	Madurai	Tamil Nadu	Hospitalized		Data not available
+12784	TN-P1256	2020-04-16	-1.0		Data not available	Madurai	Tamil Nadu	Hospitalized		Data not available
+12785	TN-P1257	2020-04-16	-1.0		Data not available	Ramanathapuram	Tamil Nadu	Hospitalized		Data not available
+12786	TN-P1258	2020-04-16	-1.0		Data not available	Ramanathapuram	Tamil Nadu	Hospitalized		Data not available
+12787	TN-P1259	2020-04-16	-1.0		Data not available	Ramanathapuram	Tamil Nadu	Hospitalized		Data not available
+12788	TN-P1260	2020-04-16	-1.0		Data not available	Vellore	Tamil Nadu	Hospitalized		Data not available
+12789	TN-P1261	2020-04-16	-1.0		Data not available	Vellore	Tamil Nadu	Hospitalized		Data not available
+12790	TN-P1262	2020-04-16	-1.0		Data not available	Vellore	Tamil Nadu	Hospitalized		Data not available
+12791	TN-P1263	2020-04-16	-1.0		Data not available	Thiruvallur	Tamil Nadu	Hospitalized		Data not available
+12792	TN-P1264	2020-04-16	-1.0		Data not available	Chennai	Tamil Nadu	Hospitalized		Data not available
+12793	TN-P1265	2020-04-16	-1.0		Data not available	Chennai	Tamil Nadu	Hospitalized		Data not available
+12794	TN-P1266	2020-04-16	-1.0		Data not available	Chennai	Tamil Nadu	Hospitalized		Data not available
+12795	TN-P1267	2020-04-16	-1.0		Data not available	Thanjavur	Tamil Nadu	Hospitalized		Data not available
 12796		2020-04-16	67.0		M	Buxar	Bihar	Hospitalized		(59, 69]
 12797		2020-04-16	35.0		M	Buxar	Bihar	Hospitalized		(29, 39]
 12798		2020-04-16	-1.0		Data not available	Kota	Rajasthan	Hospitalized		Data not available
@@ -12824,141 +12824,141 @@ Patient Number	State Patient Number	Date Announced	Age Bracket	Nationality	Gende
 12823		2020-04-16	-1.0		Data not available	Bandipore	Jammu and Kashmir	Hospitalized		Data not available
 12824		2020-04-16	-1.0		Data not available	Ganderbal	Jammu and Kashmir	Hospitalized		Data not available
 12825		2020-04-16	-1.0		Data not available	Badgam	Jammu and Kashmir	Hospitalized		Data not available
-12826		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12827		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12828		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12829		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12830		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12831		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12832		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12833		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12834		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12835		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12836		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12837		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12838		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12839		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12840		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12841		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12842		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12843		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12844		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12845		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12846		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12847		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12848		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12849		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12850		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12851		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12852		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12853		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12854		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12855		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12856		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12857		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12858		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12859		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12860		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12861		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12862		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12863		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12864		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12865		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12866		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12867		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12868		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12869		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12870		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12871		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12872		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12873		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12874		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12875		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12876		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12877		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12878		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12879		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12880		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12881		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12882		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12883		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12884		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12885		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12886		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12887		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12888		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12889		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12890		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12891		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12892		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12893		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12894		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12895		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12896		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12897		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12898		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12899		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12900		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12901		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12902		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12903		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12904		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12905		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12906		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12907		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12908		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12909		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12910		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12911		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12912		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12913		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12914		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12915		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12916		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12917		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12918		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12919		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12920		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12921		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12922		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12923		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12924		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12925		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12926		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12927		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12928		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12929		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12930		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12931		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12932		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12933		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12934		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12935		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12936		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12937		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12938		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12939		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12940		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12941		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12942		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12943		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12944		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12945		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12946		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12947		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12948		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12949		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12950		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12951		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12952		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12953		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12954		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12955		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12956		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12957		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12958		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12959		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12960		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
+12826		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12827		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12828		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12829		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12830		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12831		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12832		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12833		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12834		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12835		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12836		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12837		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12838		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12839		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12840		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12841		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12842		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12843		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12844		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12845		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12846		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12847		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12848		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12849		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12850		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12851		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12852		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12853		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12854		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12855		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12856		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12857		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12858		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12859		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12860		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12861		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12862		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12863		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12864		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12865		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12866		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12867		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12868		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12869		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12870		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12871		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12872		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12873		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12874		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12875		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12876		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12877		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12878		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12879		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12880		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12881		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12882		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12883		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12884		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12885		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12886		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12887		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12888		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12889		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12890		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12891		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12892		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12893		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12894		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12895		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12896		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12897		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12898		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12899		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12900		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12901		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12902		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12903		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12904		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12905		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12906		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12907		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12908		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12909		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12910		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12911		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12912		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12913		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12914		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12915		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12916		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12917		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12918		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12919		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12920		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12921		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12922		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12923		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12924		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12925		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12926		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12927		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12928		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12929		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12930		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12931		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12932		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12933		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12934		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12935		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12936		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12937		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12938		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12939		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12940		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12941		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12942		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12943		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12944		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12945		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12946		2020-04-16	-1.0		Data not available	Indore	Madhya Pradesh	Hospitalized		Data not available
+12947		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12948		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12949		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12950		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12951		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12952		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12953		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12954		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12955		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12956		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12957		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12958		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12959		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12960		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
 12961	KA-P314	2020-04-16	-1.0		Data not available	Kalaburagi	Karnataka	Hospitalized		Data not available
 12962	KA-P315	2020-04-16	-1.0		Data not available	Kalaburagi	Karnataka	Hospitalized		Data not available
 12963		2020-04-16	-1.0		Data not available	Kannur	Kerala	Hospitalized		Data not available
@@ -12979,11 +12979,11 @@ Patient Number	State Patient Number	Date Announced	Age Bracket	Nationality	Gende
 12978		2020-04-16	-1.0		Data not available	Jalandhar	Punjab	Hospitalized		Data not available
 12979		2020-04-16	-1.0		Data not available	Jalandhar	Punjab	Hospitalized		Data not available
 12980		2020-04-16	-1.0		Data not available	Jalandhar	Punjab	Hospitalized		Data not available
-12981		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12982		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12983		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12984		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
-12985		2020-04-16	-1.0		Data not available		Madhya Pradesh	Hospitalized		Data not available
+12981		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12982		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12983		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12984		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+12985		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
 12986		2020-04-16	-1.0		Data not available	Nuh	Haryana	Hospitalized		Data not available
 12987		2020-04-16	-1.0		Data not available	Nuh	Haryana	Hospitalized		Data not available
 12988		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
@@ -13031,3 +13031,467 @@ Patient Number	State Patient Number	Date Announced	Age Bracket	Nationality	Gende
 13030		2020-04-16	20.0		F	Munger	Bihar	Hospitalized		(19, 29]
 13031		2020-04-16	2.0		F	Munger	Bihar	Hospitalized		(0, 19]
 13032		2020-04-16	-1.0		M	Dhanbad	Jharkhand	Hospitalized		Data not available
+13033		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13034		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13035		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13036		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13037		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13038		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13039		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13040		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13041		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13042		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13043		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13044		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13045		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13046		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13047		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13048		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13049		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13050		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13051		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13052		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13053		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13054		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13055		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13056		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13057		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13058		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13059		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13060		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13061		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13062		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13063		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13064		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13065		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13066		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13067		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13068		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13069		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13070		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13071		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13072		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13073		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13074		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13075		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13076		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13077		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13078		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13079		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13080		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13081		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13082		2020-04-16	-1.0		Data not available		Telangana	Hospitalized		Data not available
+13083		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13084		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13085		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13086		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13087		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13088		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13089		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13090		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13091		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13092		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13093		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13094		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13095		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13096		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13097		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13098		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13099		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13100		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13101		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13102		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13103		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13104		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13105		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13106		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13107		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13108		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13109		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13110		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13111		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13112		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13113		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13114		2020-04-16	-1.0		M	Ahmadabad	Gujarat	Hospitalized		Data not available
+13115		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13116		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13117		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13118		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13119		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13120		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13121		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13122		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13123		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13124		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13125		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13126		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13127		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13128		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13129		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13130		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13131		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13132		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13133		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13134		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13135		2020-04-16	-1.0		F	Ahmadabad	Gujarat	Hospitalized		Data not available
+13136		2020-04-16	-1.0		M	Surat	Gujarat	Hospitalized		Data not available
+13137		2020-04-16	-1.0		F	Surat	Gujarat	Hospitalized		Data not available
+13138		2020-04-16	-1.0		F	Vadodara	Gujarat	Hospitalized		Data not available
+13139		2020-04-16	-1.0		M	Rajkot	Gujarat	Hospitalized		Data not available
+13140		2020-04-16	-1.0		F	Aravalli	Gujarat	Hospitalized		Data not available
+13141		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13142		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13143		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13144		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13145		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13146		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13147		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13148		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13149		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13150		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13151		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13152		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13153		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13154		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13155		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13156		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13157		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13158		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13159		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13160		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13161		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13162		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13163		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13164		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13165		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13166		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13167		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13168		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13169		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13170		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13171		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13172		2020-04-16	-1.0		Data not available		Uttar Pradesh	Hospitalized		Data not available
+13173		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13174		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13175		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13176		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13177		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13178		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13179		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13180		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13181		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13182		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13183		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13184		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13185		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13186		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13187		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13188		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13189		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13190		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13191		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13192		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13193		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13194		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13195		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13196		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13197		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13198		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13199		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13200		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13201		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13202		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13203		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13204		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13205		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13206		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13207		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13208		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13209		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13210		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13211		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13212		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13213		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13214		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13215		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13216		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13217		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13218		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13219		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13220		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13221		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13222		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13223		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13224		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13225		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13226		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13227		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13228		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13229		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13230		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13231		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13232		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13233		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13234		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13235		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13236		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13237		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13238		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13239		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13240		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13241		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13242		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13243		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13244		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13245		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13246		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13247		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13248		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13249		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13250		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13251		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13252		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13253		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13254		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13255		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13256		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13257		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13258		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13259		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13260		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13261		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13262		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13263		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13264		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13265		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13266		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13267		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13268		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13269		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13270		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13271		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13272		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13273		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13274		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13275		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13276		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13277		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13278		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13279		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13280		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13281		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13282		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13283		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13284		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13285		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13286		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13287		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13288		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13289		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13290		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13291		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13292		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13293		2020-04-16	-1.0		Data not available		Maharashtra	Hospitalized		Data not available
+13294		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13295		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13296		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13297		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13298		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13299		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13300		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13301		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13302		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13303		2020-04-16	-1.0		Data not available	Bhopal	Madhya Pradesh	Hospitalized		Data not available
+13304		2020-04-16	-1.0		Data not available	Jabalpur	Madhya Pradesh	Hospitalized		Data not available
+13305		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13306		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13307		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13308		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13309		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13310		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13311		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13312		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13313		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13314		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13315		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13316		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13317		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13318		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13319		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13320		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13321		2020-04-16	-1.0		Data not available	Khandwa	Madhya Pradesh	Hospitalized		Data not available
+13322		2020-04-16	-1.0		Data not available	Raisen	Madhya Pradesh	Hospitalized		Data not available
+13323		2020-04-16	-1.0		Data not available	Raisen	Madhya Pradesh	Hospitalized		Data not available
+13324		2020-04-16	-1.0		Data not available	Raisen	Madhya Pradesh	Hospitalized		Data not available
+13325		2020-04-16	-1.0		Data not available	Raisen	Madhya Pradesh	Hospitalized		Data not available
+13326		2020-04-16	-1.0		Data not available	Dewas	Madhya Pradesh	Hospitalized		Data not available
+13327		2020-04-16	-1.0		Data not available	Dewas	Madhya Pradesh	Hospitalized		Data not available
+13328		2020-04-16	-1.0		Data not available	Dhar	Madhya Pradesh	Hospitalized		Data not available
+13329		2020-04-16	-1.0		Data not available	Dhar	Madhya Pradesh	Hospitalized		Data not available
+13330		2020-04-16	-1.0		Data not available	Dhar	Madhya Pradesh	Hospitalized		Data not available
+13331		2020-04-16	-1.0		Data not available	Shajapur	Madhya Pradesh	Hospitalized		Data not available
+13332		2020-04-16	-1.0		Data not available	Mandsaur	Madhya Pradesh	Hospitalized		Data not available
+13333		2020-04-16	-1.0		Data not available	Mandsaur	Madhya Pradesh	Hospitalized		Data not available
+13334		2020-04-16	-1.0		Data not available	Mandsaur	Madhya Pradesh	Hospitalized		Data not available
+13335		2020-04-16	-1.0		Data not available	Mandsaur	Madhya Pradesh	Hospitalized		Data not available
+13336		2020-04-16	-1.0		Data not available	Mandsaur	Madhya Pradesh	Hospitalized		Data not available
+13337		2020-04-16	-1.0		Data not available	Agar Malwa	Madhya Pradesh	Hospitalized		Data not available
+13338		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13339		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13340		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13341		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13342		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13343		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13344		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13345		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13346		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13347		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13348		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13349		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13350		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13351		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13352		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13353		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13354		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13355		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13356		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13357		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13358		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13359		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13360		2020-04-16	-1.0		Data not available	Bharatpur	Rajasthan	Hospitalized		Data not available
+13361		2020-04-16	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13362		2020-04-16	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13363		2020-04-16	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13364		2020-04-16	-1.0		Data not available	Nagaur	Rajasthan	Hospitalized		Data not available
+13365		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13366		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13367		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13368		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13369		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13370		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13371		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13372		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13373		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13374		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13375		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13376		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13377		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13378		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13379		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13380		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13381		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13382		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13383		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13384		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13385		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13386		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13387		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13388		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13389		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13390		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13391		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13392		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13393		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13394		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13395		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13396		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13397		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13398		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13399		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13400		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13401		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13402		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13403		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13404		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13405		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13406		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13407		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13408		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13409		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13410		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13411		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13412		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13413		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13414		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13415		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13416		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13417		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13418		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13419		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13420		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13421		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13422		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13423		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13424		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13425		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13426		2020-04-16	-1.0		Data not available		Delhi	Hospitalized		Data not available
+13427		2020-04-16	21.0		F		Bihar	Hospitalized		(19, 29]
+13428		2020-04-16	55.0		M		Bihar	Hospitalized		(49, 59]
+13429		2020-04-16	1.0		F		Bihar	Hospitalized		(0, 19]
+13430		2020-04-16	-1.0		Data not available		Meghalaya	Hospitalized		Data not available
+13431		2020-04-16	-1.0		Data not available		Meghalaya	Hospitalized		Data not available
+13432		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13433		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13434		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13435		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13436		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13437		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13438		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13439		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13440		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13441		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13442		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13443		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13444		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13445		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13446		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13447		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13448		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13449		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13450		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13451		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13452		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13453		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13454		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13455		2020-04-17	-1.0		Data not available		West Bengal	Hospitalized		Data not available
+13456		2020-04-16	-1.0		Data not available	Korba	Chhattisgarh	Hospitalized		Data not available
+13457		2020-04-16	-1.0		Data not available	Korba	Chhattisgarh	Hospitalized		Data not available
+13458		2020-04-16	-1.0		Data not available	Korba	Chhattisgarh	Hospitalized		Data not available
+13459		2020-04-17	-1.0		Data not available	Ajmer	Rajasthan	Hospitalized		Data not available
+13460		2020-04-17	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13461		2020-04-17	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13462		2020-04-17	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13463		2020-04-17	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13464		2020-04-17	-1.0		Data not available	Jaipur	Rajasthan	Hospitalized		Data not available
+13465		2020-04-17	-1.0		Data not available	Jhunjhunu	Rajasthan	Hospitalized		Data not available
+13466		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13467		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13468		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13469		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13470		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13471		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13472		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13473		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13474		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13475		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13476		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13477		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13478		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13479		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13480		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13481		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13482		2020-04-17	-1.0		Data not available	Jodhpur	Rajasthan	Hospitalized		Data not available
+13483		2020-04-17	-1.0		Data not available	Tonk	Rajasthan	Hospitalized		Data not available
+13484		2020-04-17	-1.0		Data not available	Tonk	Rajasthan	Hospitalized		Data not available
+13485		2020-04-17	-1.0		Data not available	Tonk	Rajasthan	Hospitalized		Data not available
+13486		2020-04-17	-1.0		Data not available	Tonk	Rajasthan	Hospitalized		Data not available
+13487		2020-04-17	-1.0		Data not available	Tonk	Rajasthan	Hospitalized		Data not available
+13488		2020-04-17	-1.0		Data not available	Tonk	Rajasthan	Hospitalized		Data not available
+13489		2020-04-17	-1.0		Data not available	Nagaur	Rajasthan	Hospitalized		Data not available
+13490		2020-04-17	-1.0		Data not available	Nagaur	Rajasthan	Hospitalized		Data not available
+13491		2020-04-17	-1.0		Data not available	Kota	Rajasthan	Hospitalized		Data not available
+13492		2020-04-17	-1.0		Data not available	Kota	Rajasthan	Hospitalized		Data not available
+13493		2020-04-17	-1.0		Data not available	Kota	Rajasthan	Hospitalized		Data not available
+13494		2020-04-17	-1.0		Data not available	Kota	Rajasthan	Hospitalized		Data not available
+13495		2020-04-17	-1.0		Data not available	Jhalawar	Rajasthan	Hospitalized		Data not available
+13496		2020-04-17	-1.0		Data not available	Evacuees*	Rajasthan	Hospitalized		Data not available

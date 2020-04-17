@@ -67,7 +67,7 @@ DailyNumberofcasesfig.add_trace(go.Scatter(
                 opacity=0.8))
 
 # Use date string to set xaxis range
-DailyNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-16'],
+DailyNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-17'],
                   title_text="Daily number of cases- Confirmed, Recovered,Deceased",
                   xaxis_title="Date",
                   yaxis_title="Case Count")
@@ -97,7 +97,7 @@ TotalNumberofcasesfig.add_trace(go.Scatter(
                 opacity=0.8))
 
 # Use date string to set xaxis range
-TotalNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-16'],
+TotalNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-17'],
                   title_text="Total number of cases- Confirmed, Recovered,Deceased",
                   xaxis_title="Date",
                   yaxis_title="Case Count")
@@ -211,7 +211,7 @@ app.layout = html.Div([
         html.Div(id='dd-output-container2',style={'padding': 20}),
     ]),
      html.Hr(),
-     html.P('Last updated on 2020-04-15 22:12:47 IST',style={'font-family': 'Helvetica', 'textAlign': 'center'})
+     html.P('Last updated on 2020-04-15 11:01:47 IST',style={'font-family': 'Helvetica', 'textAlign': 'center'})
 
 ])
 
