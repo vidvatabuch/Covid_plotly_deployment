@@ -1,39 +1,38 @@
-State	Confirmed	Recovered	Deaths	Active
-Total	13495	1777	448	11270
-Maharashtra	3202	300	194	2708
-Delhi	1640	52	38	1550
-Tamil Nadu	1267	180	15	1072
-Madhya Pradesh	1164	70	55	1039
-Rajasthan	1169	164	11	994
-Gujarat	929	73	36	820
-Uttar Pradesh	805	68	13	724
-Telangana	700	187	18	495
-Andhra Pradesh	534	20	14	500
-Kerala	394	245	2	147
-Karnataka	315	82	13	220
-Jammu and Kashmir	314	38	4	272
-West Bengal	255	51	10	194
-Haryana	215	65	3	147
-Punjab	197	29	14	154
-Bihar	83	37	1	45
-Odisha	60	19	1	40
-Uttarakhand	37	9	0	28
-Himachal Pradesh	35	16	2	17
-Assam	34	5	1	28
-Chhattisgarh	36	23	0	13
-Jharkhand	29	0	2	27
-Chandigarh	21	9	0	12
-Ladakh	18	14	0	4
-Andaman and Nicobar Islands	11	11	0	0
-Goa	7	6	0	1
-Puducherry	7	1	0	6
-Meghalaya	9	0	1	8
-Manipur	2	1	0	1
-Tripura	2	1	0	1
-Mizoram	1	0	0	1
-Arunachal Pradesh	1	1	0	0
-Dadra and Nagar Haveli	1	0	0	1
-Nagaland	1	0	0	1
-Daman and Diu	0	0	0	0
-Lakshadweep	0	0	0	0
-Sikkim	0	0	0	0
+State,Confirmed,Recovered,Deaths,Active
+Maharashtra,4200,507,223,3470
+Delhi,2003,290,45,1668
+Gujarat,1743,105,63,1575
+Rajasthan,1495,205,24,1266
+Tamil Nadu,1477,411,15,1051
+Madhya Pradesh,1407,131,72,1204
+Uttar Pradesh,1100,127,17,956
+Telangana,858,186,21,651
+Andhra Pradesh,647,65,17,565
+Kerala,401,270,2,129
+Karnataka,390,111,16,263
+Jammu and Kashmir,354,56,5,293
+West Bengal,339,66,12,261
+Haryana,250,104,3,143
+Punjab,244,37,16,191
+Bihar,96,42,2,52
+Odisha,68,24,1,43
+Uttarakhand,44,11,0,33
+Jharkhand,41,0,2,39
+Himachal Pradesh,39,16,2,21
+Chhattisgarh,36,25,0,11
+Assam,35,17,1,17
+Chandigarh,26,13,0,13
+Ladakh,18,14,0,4
+Andaman and Nicobar Islands,15,11,0,4
+Meghalaya,11,0,1,10
+Goa,7,7,0,0
+Puducherry,7,4,0,3
+Manipur,2,2,0,0
+Tripura,2,1,0,1
+Mizoram,1,0,0,1
+Arunachal Pradesh,1,1,0,0
+Nagaland,0,0,0,0
+Dadra and Nagar Haveli,0,0,0,0
+Daman and Diu,0,0,0,0
+Lakshadweep,0,0,0,0
+Sikkim,0,0,0,0

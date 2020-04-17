@@ -12,30 +12,73 @@ import plotly.graph_objects as go
 #For current date and time
 from datetime import datetime
 
+#For scrapping the data
+import bs4
+import requests
+
 #Load the data from CSV into the respective dataframes
 #Statewise  CSV
-statewise_df = pd.read_csv('data/COVIDstatewise.csv',sep='\t')
+statewise_df = pd.read_csv('data/COVIDstatewise.csv',sep=',')
 
 #Raw data CSV
-raw_data_df = pd.read_csv('data/COVIDraw_data_df.csv',sep='\t')
+raw_data_df = pd.read_csv('data/COVIDraw_data_df.csv',sep=',')
 
 #Cases CSV
-cases_df = pd.read_csv('data/COVIDcases.csv',sep='\t')
+cases_df = pd.read_csv('data/COVIDcases.csv',sep=',')
 
+#Current updates
+# get url (published from google sheets, cannot download, only html)
+url = r'https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_India'
 
+# read the url and put as text
+rtext = requests.get(url).text
+
+soup = bs4.BeautifulSoup(rtext, "lxml")
+cases_table = soup.find('table', class_='wikitable mw-collapsible')
+
+newcases=0
+totalcases=0
+diff= 0
+newdeaths=0
+totaldeaths=0
+date = 0
+for row in cases_table.findAll('tr'):
+    cells=row.findAll('td')
+    #print(len(cells))
+    if len(cells)==40:
+      #print(cells[38].find(text=True))
+        date = cells[0].find(text=True).split('\n')[0]
+        newcases = cells[34].find(text=True).split('\n')[0]
+        totalcases = cells[35].find(text=True).split('\n')[0]
+        diff = cells[36].find(text=True).split('\n')[0]
+        newdeaths=cells[37].find(text=True).split('\n')[0]
+        totaldeaths=cells[38].find(text=True).split('\n')[0]
+#todf = {'Date':date,'New Cases':newcases,'Total Cases':totalcases,'Difference in %':diff,'New Deaths':newdeaths,'Total Deaths':totaldeaths}
+
+fig = go.Figure(layout=go.Layout(height=100,autosize=True,margin={'t': 0,'b':0}),data=[go.Table(
+  header=dict(
+    values=['Date', 'New Cases', 'Total Cases', 'Difference in %', 'New Deaths', 'Total Deaths'],
+    line_color='white', fill_color='white',
+    align='center',font=dict(color='black', size=14)
+  ),
+  cells=dict(
+    values=[date, newcases, totalcases,diff,newdeaths,totaldeaths],
+    align='center', font=dict(color='black', size=12)
+    ))
+])
 #Statewise Bar Chart
 toplot = statewise_df[statewise_df['Confirmed']>5]
 
-CovidCasebyStatefig = go.Figure(go.Bar(x=toplot.loc[1:,'State'], y=toplot.loc[1:,'Active'], name='Active'))
-CovidCasebyStatefig.add_trace(go.Bar(x=toplot.loc[1:,'State'], y=toplot.loc[1:,'Deaths'], name='Deaths'))
-CovidCasebyStatefig.add_trace(go.Bar(x=toplot.loc[1:,'State'], y=toplot.loc[1:,'Recovered'], name='Recovered'))
+CovidCasebyStatefig = go.Figure(go.Bar(x=toplot['State'], y=toplot['Active'], name='Active'))
+CovidCasebyStatefig.add_trace(go.Bar(x=toplot['State'], y=toplot['Deaths'], name='Deaths'))
+CovidCasebyStatefig.add_trace(go.Bar(x=toplot['State'], y=toplot['Recovered'], name='Recovered'))
 
 CovidCasebyStatefig.update_layout(title='Covid-19 Case Statuses by State',barmode='stack', xaxis={'categoryorder':'array', 'categoryarray':toplot.loc[1:,'State']}, xaxis_title="States",
     yaxis_title="Case Count")
 
 #Statewise Pie Chart
-labels = statewise_df.loc[1:,'State']
-values =  statewise_df.loc[1:,'Recovered']
+labels = statewise_df['State']
+values =  statewise_df['Recovered']
 CovidpercentbyStatefig = go.Figure(data=[go.Pie(labels=labels, values=values,hole=.3)])
 CovidpercentbyStatefig.update_traces(textposition='inside')
 CovidpercentbyStatefig.update_layout(title='Covid-19 Recovered Cases percent by State',uniformtext_minsize=12, uniformtext_mode='hide')
@@ -67,7 +110,7 @@ DailyNumberofcasesfig.add_trace(go.Scatter(
                 opacity=0.8))
 
 # Use date string to set xaxis range
-DailyNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-17'],
+DailyNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-22'],
                   title_text="Daily number of cases- Confirmed, Recovered,Deceased",
                   xaxis_title="Date",
                   yaxis_title="Case Count")
@@ -97,7 +140,7 @@ TotalNumberofcasesfig.add_trace(go.Scatter(
                 opacity=0.8))
 
 # Use date string to set xaxis range
-TotalNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-17'],
+TotalNumberofcasesfig.update_layout(xaxis_range=['2020-01-25','2020-04-22'],
                   title_text="Total number of cases- Confirmed, Recovered,Deceased",
                   xaxis_title="Date",
                   yaxis_title="Case Count")
@@ -138,6 +181,10 @@ app.layout = html.Div([
     html.H4(children='At a glance',style={'font-family': 'Helvetica', 'font-weight': 'bold', 'textAlign': 'center'}),
     html.P('Built using Python, Dash and Plotly.',style={'font-family': 'Helvetica', 'textAlign': 'center'}),
     html.Hr(),
+    html.Div([
+            html.H5(children='Current Updates',style={'font-family': 'Helvetica', 'font-weight': 'bold', 'textAlign': 'center'}),
+            dcc.Graph(figure=fig)
+        ]),
     html.Div([
             #html.H3('Column 1'),
             #dcc.Graph(id='g1', figure={'data': [{'y': [1, 2, 3]}]})
@@ -200,8 +247,8 @@ app.layout = html.Div([
             dcc.Dropdown(
                 id='demo-dropdown2',
                 options=[
-                    {'label': 'Choropeth Map of India', 'value': 'Choropeth'},
-                    {'label': 'Bubble Map of India', 'value': 'Bubble'},
+                    {'label': 'Covid Cases by State', 'value': 'Choropeth'},
+                    {'label': 'Covid Cases by Cities', 'value': 'Bubble'},
                 ],
                 value='Choropeth',
                 className="six columns",
@@ -211,7 +258,7 @@ app.layout = html.Div([
         html.Div(id='dd-output-container2',style={'padding': 20}),
     ]),
      html.Hr(),
-     html.P('Last updated on 2020-04-15 11:01:47 IST',style={'font-family': 'Helvetica', 'textAlign': 'center'})
+     html.P('Last updated on 2020-04-20 12:39:50 IST',style={'font-family': 'Helvetica', 'textAlign': 'center'})
 
 ])
 
