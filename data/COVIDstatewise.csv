@@ -1,38 +1,39 @@
-State,Confirmed,Recovered,Deaths,Active
-Maharashtra,4200,507,223,3470
-Delhi,2003,290,45,1668
-Gujarat,1743,105,63,1575
-Rajasthan,1495,205,24,1266
-Tamil Nadu,1477,411,15,1051
-Madhya Pradesh,1407,131,72,1204
-Uttar Pradesh,1100,127,17,956
-Telangana,858,186,21,651
-Andhra Pradesh,647,65,17,565
-Kerala,401,270,2,129
-Karnataka,390,111,16,263
-Jammu and Kashmir,354,56,5,293
-West Bengal,339,66,12,261
-Haryana,250,104,3,143
-Punjab,244,37,16,191
-Bihar,96,42,2,52
-Odisha,68,24,1,43
-Uttarakhand,44,11,0,33
-Jharkhand,41,0,2,39
-Himachal Pradesh,39,16,2,21
-Chhattisgarh,36,25,0,11
-Assam,35,17,1,17
-Chandigarh,26,13,0,13
-Ladakh,18,14,0,4
-Andaman and Nicobar Islands,15,11,0,4
-Meghalaya,11,0,1,10
-Goa,7,7,0,0
-Puducherry,7,4,0,3
-Manipur,2,2,0,0
-Tripura,2,1,0,1
-Mizoram,1,0,0,1
-Arunachal Pradesh,1,1,0,0
-Nagaland,0,0,0,0
-Dadra and Nagar Haveli,0,0,0,0
-Daman and Diu,0,0,0,0
+State,Confirmed,Deaths,Recovered,Active
+Andaman and Nicobar Islands,33,0,33,0
+Andhra Pradesh,2137,47,1142,948
+Arunachal Pradesh,1,0,1,0
+Assam,80,2,39,39
+Bihar,940,7,388,545
+Chandigarh,187,3,28,156
+Chhattisgarh,59,0,55,4
+Dadra and Nagar Haveli and Daman and Diu,1,0,0,1
+Delhi,7998,106,2858,5034
+Goa,7,0,7,0
+Gujarat,9267,566,3562,5139
+Haryana,793,11,418,364
+Himachal Pradesh,66,2,39,25
+Jammu and Kashmir,971,11,466,494
+Jharkhand,173,3,79,91
+Karnataka,959,33,451,475
+Kerala,534,4,490,40
+Ladakh,43,0,22,21
 Lakshadweep,0,0,0,0
+Madhya Pradesh,4173,232,2004,1937
+Maharashtra,25922,975,5547,19400
+Manipur,2,0,2,0
+Meghalaya,13,1,10,2
+Mizoram,1,0,1,0
+Nagaland,0,0,0,0
+Odisha,538,3,143,392
+Puducherry,13,1,9,3
+Punjab,1924,32,200,1692
+Rajasthan,4328,121,2459,1748
 Sikkim,0,0,0,0
+Tamil Nadu,9227,64,2176,6987
+Telangana,1367,34,940,393
+Tripura,155,0,16,139
+Uttar Pradesh,3729,83,1902,1744
+Uttarakhand,72,1,46,25
+West Bengal,2290,207,702,1381
+"Total
+",,,,
